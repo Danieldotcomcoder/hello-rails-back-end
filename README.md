@@ -1,24 +1,92 @@
-# README
+# Hello-rails-back-end
+ In this project I'm making the back-end of my hello app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
+- Ruby On Rails
 
-Things you may want to cover:
+## Link to react front end app:
+[link](https://github.com/Danieldotcomcoder/hello-rails-back-end.git)
 
-* Ruby version
+## Link to Deployed API with Heroku
+[link](https://aqueous-lowlands-69166.herokuapp.com/api/greetings)
+### Technologies used
+- Github
+- Gitflow
+- Visual Studio Code
+## Getting Started
 
-* System dependencies
+To get a local copy up and running follow these simple example steps.
 
-* Configuration
+git clone https://github.com/Danieldotcomcoder/hello-rails-back-end.git
 
-* Database creation
+cd hello-rails-back=end
 
-* Database initialization
+### Setup
 
-* How to run the test suite
+Install npm with:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+npm i
+```
+Install gems with:
 
-* Deployment instructions
+```
+bundle install
+```
+Setup database with:
 
-* ...
+```
+rails db:create
+rails db:migrate
+```
+### Usage
+
+Start server with:
+
+```
+rails server
+```
+
+Open http://localhost:3000/ in your browser.
+
+### Run tests
+
+Install rspec with:
+
+```
+bundle install
+```
+
+and
+
+```
+rails generate rspec:install
+```
+
+run the test with:
+
+```
+rspec spec
+```
+
+## Authors
+
+ :man: Daniel Shdeed
+
+- [GitHub](https://github.com/Danieldotcomcoder)
+- [Twitter](https://twitter.com/DannyDotcoder)
+- [LinkedIn](https://www.linkedin.com/in/daniel-shdeed/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
